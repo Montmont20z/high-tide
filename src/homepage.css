@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Karla:wght@600&display=swap');
+
+/* Header style */
+.Header {
+    width: 100%;
+    height: 125px;
+
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
+}
+
+.Header-title {
+    width: 406px;
+    height: 64px;
+    margin-left: 30px;
+    
+    color: #000;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Header > a{
+    text-decoration: none;
+}
+
+.Header-search {
+    position: relative;
+    margin-left: auto;
+}
+
+.Header-search-input {
+    width: 466px;
+    height: 64px;
+
+    background: rgba(217, 217, 217, 0.54);
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.Header-search-input[type=text]{
+    padding-left: 25px;
+    font-family: Inter;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.Header-search-input::placeholder {
+    color: #808080;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.Header-search-search_icon{
+    width: 40px;
+    height: 40px;
+
+    position: absolute;
+    top: 17px;
+    right: 5px;
+}
+
+.Header-add_to_cart{
+    width: 55px;
+    height: 50px;
+
+    margin-left: 25px;
+}
+
+/* NavBar style */
+.NavBar-nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
+    border-top: 1px solid rgba(0, 0, 0, 0.50);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.50);
+}
+
+.NavBar-ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+/* to select Link to element */
+.NavBar-ul > a {
+    text-decoration: none;
+}
+
+.NavBar-ul-li {
+    margin: 25px;
+    color: rgba(0, 0, 0, 0.80);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    list-style-type: none;
+}
+
+/* Carousel */
+.Carousel {
+    height: 512px;
+    width: 912px;
+    margin: 0 auto;
+    background-color: transparent;
+}
+
+.Carousel-image {
+    height: 512px;
+    width: auto;
+    max-width: 912px;
+    border-radius: 10px;
+}
+
+.Carousel-imageSlider{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.Carousel-prevArrow, .Carousel-nextArrow {
+    width: 90px;
+    padding: 10px;
+    height: 80px;
+    text-align: center;
+    display:inline;
+    justify-items: center;
+    align-items: center;
+    margin: 0 48px;
+    background-color: #b9b9b9;
+
+    font-size: 60px;
+    color: grey;
+    
+    cursor: pointer;
+}
+
+.Carousel-prevArrow:hover, .Carousel-nextArrow:hover {
+    background-color: rgb(77, 77, 77);
+}
+
+/* attrative images */
+.attractiveImage{
+    display: flex;
+    margin: 35px auto;
+    justify-content:center;
+    align-items: center;
+}
+
+.men_image, .women_image {
+    margin: 0 45px;
+}
+
+/* Search By Categories */
+.SearchByCategories{
+    height: fit-content;
+    width: auto;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 50px;
+}
+
+.SearchByCategories-title{
+    width: 492px;
+    height: 67px;
+    margin: 43px;
+    text-align: center;
+    
+    color: #000;
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;    
+}
+
+.SearchByCategories-table {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 30px;
+    column-gap: 20px;
+}
+
+.SearchByCategories-cell {
+    height: auto;
+    width: 280px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.SearchByCategories-image {
+    height: 380px;
+    width: 250px;
+}
+
+.SearchByCategories-text{
+    width: 280px;
+    height: 45px;
+
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 5px;
+}
+
+/* collabShop */
+.collabShop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.collabShop-title{
+    width: 412px;
+    height: 60px;
+    margin: 60px 0;
+
+    text-align: center;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* Footer */
+.footer {
+    width: auto;
+    height: 602px;
+    padding: 44px 52px;
+    margin-top: 102px;
+
+    background-color: #404040;
+    display: flex;
+    justify-content: center;
+    column-gap: 130px;
+}
+
+.footer-title {
+    margin-bottom: 42px;
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.footer-item {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+}
